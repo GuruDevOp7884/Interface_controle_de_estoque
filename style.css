@@ -15,10 +15,21 @@ label{
     font-size: 17px;
 }
 
+form{
+    width: 100%;
+}
+
 #validacao{
     color: red;
 }
 
 .bg-light{
     width: 69.5rem;
+}
+
+
+@media (min-width: 260px) and (max-width:1150px){
+    .bg-light{
+        width:95%;
+    }
 }
