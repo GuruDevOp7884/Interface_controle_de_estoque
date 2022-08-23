@@ -27,13 +27,18 @@ form{
     width: 69.5rem;
 }
 
-@media (min-width: 260px) and (max-width:1150px){
+
+/* responsividade */
+
+@media (max-width:1150px)
+{
     .bg-light{
         width:95%;
     }
 }
 
-@media (min-width: 360px) and (max-width:430px){
+@media (max-width:430px)
+{
     .bg-light{
         width:95%;
     }
