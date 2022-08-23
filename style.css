@@ -33,6 +33,13 @@ form{
     }
 }
 
-/* tbody tr:hover{
-    background: linear-gradient(266deg, rgb(207, 133, 181) 0%, rgb(251, 172, 172) 100%);
-} */
+@media (min-width: 360px) and (max-width:430px){
+    .bg-light{
+        width:95%;
+    }
+
+    #tabela{
+        max-width:90%;
+    }
+}
+
