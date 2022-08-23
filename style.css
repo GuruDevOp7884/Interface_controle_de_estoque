@@ -30,13 +30,6 @@ form{
 
 /* responsividade */
 
-@media (max-width:1150px)
-{
-    .bg-light{
-        width:95%;
-    }
-}
-
 @media (max-width:430px)
 {
     .bg-light{
@@ -48,4 +41,12 @@ form{
         margin-right: 26px;
     }
 }
+
+@media (max-width:1150px)
+{
+    .bg-light{
+        width:95%;
+    }
+}
+
 
