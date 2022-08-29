@@ -52,7 +52,8 @@ ul li{
 @media (max-width:430px)
 {
     td{
-        text-overflow: nowrap;
+        overflow-y: scroll;
+        overflow-x: scroll;
     }
 
     .bg-light{
