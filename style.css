@@ -39,10 +39,6 @@ ul li{
     padding: 0px 5px;
 }
 
-td{
-    overflow-y: scroll;
-}
-
 #validacao{ 
     color: red;
 }
@@ -62,6 +58,10 @@ td{
     #tabela{
         max-width:90%;
         margin-right: 26px;
+    }
+
+    td{
+        overflow-y: scroll;
     }
 }
 
