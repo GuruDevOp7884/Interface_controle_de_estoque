@@ -39,6 +39,10 @@ ul li{
     padding: 0px 5px;
 }
 
+td{
+    overflow-y: scroll;
+}
+
 #validacao{ 
     color: red;
 }
@@ -51,11 +55,6 @@ ul li{
 
 @media (max-width:430px)
 {
-    td{
-        overflow-y: scroll;
-        overflow-x: scroll;
-    }
-
     .bg-light{
         width:95%;
     }
